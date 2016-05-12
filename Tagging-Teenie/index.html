@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8">
+    <title>Tagging Teenie</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+
+</head>
+
+<body>
+    <!-- <img id="teenie2" width="800" height="800" src="teenie2.png"/> -->
+    <div id="teenieTag">Tagging <span id="tag-word">Teenie</span></div>
+
+    <div id="wrapper">
+        <div id="left-panel">
+             <!-- <button id="zoomIn">+</button>
+    <button id="zoomOut">-</button> -->
+            <canvas id="canvas" width="800" height="800"></canvas>
+
+
+            <div id="log"></div>
+        </div>
+        <div id="right-panel" style="display: block" >
+            <h2>Help organize this Teenie Harris Archive</h2>
+            <div class="instructions">
+                Help the Carnegie Museum of Art archive over 60,000 digital images taken by historic Pittsburgh photographer Teenie Harris. Pick a metadata tag from the list below then select photos that that have content that match the tag (example: a photo of someone standing next to their new car would match the "car" tag).
+                <br>
+                <br>
+                When you click the "Save Tags" button, the system will immediately attach that tag to all the photos you selected.
+              </div>
+            <br>
+            <!--<form name="data-form" action="counter.php" method="post">-->
+
+
+                <b><span class="labels">Pick a Metadata Tag<span class="label"></b>
+                <br>
+                <br>
+                <input type="radio" class="right-panel-radio" name = "radios" id="weddings" > Sports <br>
+
+                <br>
+                <input type="radio" class="right-panel-radio" name = "radios" id="newbutton1" value="Portraits" > Football
+                <br>
+                <br>
+                <input type="radio" class="right-panel-radio" name = "radios" id="newbutton2" value="Cars" > Music
+                <br>
+                <br>
+                <input type="radio" class="right-panel-radio" name = "radios" id="newbutton2" value="Cars" > Theater
+                <br>
+                <br>
+                <textarea id="output" rows="6" cols="30" placeholder="image ID's will pop up here"> </textarea>
+                <br>
+                <input type="button" class="right-panel-button" id="clear" value="Save Tags";>
+                <br>
+		            <button id="zoomIn">Zoom In</button>
+		            <button id="zoomOut">Zoom out</button>
+
+
+
+        </div>
+        <div id="right-panel2" style="display: none" >
+            <h2>Thank You</h2>
+            <div class="instructions">
+                Thank you for assisting CMOA in tagging the Teenie Harris archive.
+                <br>
+                <br>
+                To help this process further, sign up for the museum's Tagging Teenie email list to get updates on monthly archiving workshops. These workshops are free to attend and will teach you how to further add to the Teenie Harris database, assisting our project and offering a unique opportunity to be exposed to a behind-the-scenes look at Teenie's work. 
+              </div>
+            <br>
+            <!--<form name="data-form" action="counter.php" method="post">-->
+
+                <br>
+                <textarea id="output" rows="1" cols="30" placeholder=""> </textarea>
+                <br>
+                <input type="button" class="right-panel-button" id="return" value="Submit Email";>
+                <br>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- <div class="mydiv" id="popup" style="display: block" > text ></div> -->
+
+</body>
+    <!--- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.0/jquery-migrate.min.js"></script>
+    <script src="main4.js"></script>
+</html>

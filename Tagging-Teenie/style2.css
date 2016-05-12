@@ -1,0 +1,191 @@
+
+body {
+
+    background-color: #F7F4EF;
+
+}
+
+#wrapper {
+
+    margin-top: 60px;
+    position: absolute;
+}
+#canvas {
+    border: 2px solid #846374;
+    background-color: darkgray;
+
+}
+
+#log {
+    height: 300px;
+    overflow: auto;
+}
+
+#left-panel {
+    float:left;
+    width: 850px;
+    margin-left: 50px;
+
+}
+
+#right-panel {
+    float:left;
+    width: 700px;
+    padding-left: 20px;
+}
+
+#teenieTag, #tag-word {
+    font-family: "Avenir Next", sans-serif;
+    text-align: left;
+    font-size: 75px;
+    font-weight: 350;
+    color: #242020;
+    padding-left: 40px;
+    margin-top: 50px;
+    line-height: 70%;
+
+
+}
+#tag-word{
+    font-weight: 600;
+    margin-left: -0.4em;
+}
+
+#d{
+    background-color:#5AA6A6;
+
+
+}
+h2 {
+    font-size: 35px;
+    font-family: "Avenir Next", sans-serif;
+    color: #5AA6A6;
+    font-weight: 500;
+}
+
+h3 {
+
+    font-family: "Avenir Next", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight:400;
+    color: #846374;
+    padding:4;
+
+}
+.labels {
+   font-family: "Avenir Next", sans-serif;
+    font-size: 25px;
+    font-weight:600;
+    color: #846374;
+}
+
+.instructions {
+    font-size: 18px;
+    font-family: "Avenir Next", sans-serif;
+    color: #846374;
+}
+
+
+#streetname {
+    color: black;
+    height: 20px;
+    width: 200px;
+    font-size: 14px;
+}
+
+#comments {
+    color: black;
+
+    font-size: 14px;
+    margin-top: 0px
+    margin-bottom: 10px;
+}
+
+.right-panel-button {
+    color: #344059;
+    font-size: 15px;
+    width: 180px;
+    height: 32px;
+    border: #F2F1DF 2px solid;
+    background-color: #C9DBF2;
+    border-radius: 5px;
+
+}
+
+.right-panel-radio{
+    color: #344059;
+    font-size: 15px;
+    width: 40px;
+    height: 20px;
+    border: #F2F1DF 2px solid;
+    background-color: #C9DBF2;
+    border-radius: 5px;
+
+}
+
+
+.mydiv{
+    width:300px;
+    height:300px;
+    background:#846374;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-top:-150px; /* negative half the size of height */
+    margin-left:-150px; /* negative half the size of width */
+}
+
+
+
+#submitbutton {
+    background-color: #5AA6A6;
+}
+
+
+#newbutton1{
+    background-color: #5AA6A6;
+}
+
+#newbutton2{
+    background-color: #5AA6A6;
+}
+
+#clear{
+    color: #FFFFFF;
+    background-color: #846374;
+}
+
+
+/*#zoomIn, #zoomOut {
+    font-size: 20px;
+    background-color:#C9DBF2;
+    border: 1px solid #344059;
+    width: 30px;
+    height: 30px;
+    color: #344059;
+    font-weight:600;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}*/
+
+#popup {
+
+  float:left;
+  width: 700px;
+  padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Avenir Next", sans-serif;
+   background-color: #F27272;
+    // background-color: white;
+    text-align: center;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+    border: 3px solid;
+    border-color: #F27272;
+    color: white;
+    border-radius: 1px;
+    display: block;
+
+}
